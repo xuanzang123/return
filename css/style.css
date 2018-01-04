@@ -1,0 +1,169 @@
+body, table, td, p, input
+{
+	font-size: 14px;
+	font-family: Microsoft Yahei, SimSun;
+}
+A
+{
+	color: #5060ff;
+	text-decoration: none;
+}
+A:hover
+{
+	color: red;
+	text-decoration: underline;
+}
+A:active
+{
+	color: lime;
+}
+
+input[type=button],input[type=submit],input[type=reset]
+{
+	background-color:ButtonFace;
+	border:1px solid gray;
+}
+
+.pagew
+{
+	width:900px;
+}
+
+.sign
+{
+	font-family: Webdings;
+}
+.ok
+{
+	color: Green;
+	font-weight: bold;
+	display: block;
+	width: 45px;
+	margin-left: 120px;
+}
+.ft
+{
+	color: Red;
+	font-weight: bold;
+	display: block;
+	width: 200px;
+	margin-left: 120;
+}
+
+.opt_title
+{
+	width: 120px;
+	display: block;
+	float: left;
+	clear: both;
+}
+
+.border_nosel
+{
+	background-color: #eee;
+	border: 1px solid #ccc;
+	border-bottom: 1px solid white;
+	border-radius: 6px 6px 0 0;
+	float: left;
+	width: 100px;
+	height: 25px;
+	line-height: 25px;
+	font-weight: bold;
+	text-align: center;
+}
+.border_cusel
+{
+	background-color: #efe4ac;
+	border: 1px solid lightgray;
+	border-bottom: none;
+	border-radius: 6px 6px 0 0;
+	float: left;
+	width: 100px;
+	height: 25px;
+	line-height: 25px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.d_head_operline
+{
+	margin: auto;
+	border: solid 1px #ccc;
+	background-color: #efe4ac;
+	height: 30px;
+	padding: 8px 5px 0px 5px;
+	width: 888px;
+}
+
+.datagrid
+{
+	border-collapse: collapse;
+	border:1px solid #98bf21;
+	margin:auto;
+}
+
+.datagrid tr
+{
+	height:20px;
+}
+
+.datagrid tr:hover, .datagrid tr.alt:hover
+{
+}
+
+.datagrid th, .datagrid th a
+{
+	background-color:#A7C942;
+	color:#FFFFFF;
+	height:25px;
+}
+
+.datacell
+{
+	border: solid 1px #c0c0c0;
+	height: 25px;
+}
+
+.datacell, .datacell span
+{
+	padding-left:2px;
+	color:Black;
+}
+
+
+.datagrid tr.alt
+{
+	color:#000000;
+	background-color:#EAF2D3;
+}
+
+.agent
+{
+	color: Black;
+	cursor: pointer;
+}
+.agent:hover
+{
+	color:#005000;
+}
+
+
+.toolbar
+{
+	border: solid 1px #c0c0c0;
+}
+
+.toolbar A
+{
+	display:inline-block;
+	color:Black;
+	border: 1px solid ButtonFace;
+	padding: 1px 2px 1px 2px;
+}
+
+.toolbar A:hover
+{
+	border: 1px solid gray;
+	background-color:White;
+	text-decoration: none;
+}
